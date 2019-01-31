@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>570</width>
-    <height>456</height>
+    <width>587</width>
+    <height>472</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -142,7 +142,7 @@
       <x>20</x>
       <y>220</y>
       <width>391</width>
-      <height>181</height>
+      <height>131</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -154,10 +154,10 @@
     <widget class="QLabel" name="lbl_lcd">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>30</y>
-       <width>351</width>
-       <height>111</height>
+       <width>371</width>
+       <height>81</height>
       </rect>
      </property>
      <property name="font">
@@ -180,9 +180,9 @@
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>240</y>
-      <width>111</width>
-      <height>111</height>
+      <y>230</y>
+      <width>121</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="autoFillBackground">
@@ -195,7 +195,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Desktop/hidden_danger_1392698.png</pixmap>
+     <pixmap>../projeto_final-master/figuras/hidden_danger_1392698.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -207,12 +207,12 @@
      <set>Qt::LinksAccessibleByMouse</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_desligabuzzer">
+   <widget class="QPushButton" name="btn_desligasist">
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>360</y>
-      <width>131</width>
+      <y>370</y>
+      <width>141</width>
       <height>41</height>
      </rect>
     </property>
@@ -236,11 +236,51 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Desktop/logo_gas.PNG</pixmap>
+     <pixmap>../projeto_final-master/figuras/logo_gas.PNG</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(243, 243, 243);</string>
+    </property>
+    <property name="title">
+     <string>Concentração (ppm)</string>
+    </property>
+    <widget class="QLabel" name="lbl_concentracao">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>371</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -248,7 +288,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>570</width>
+     <width>587</width>
      <height>21</height>
     </rect>
    </property>

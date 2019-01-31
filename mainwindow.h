@@ -29,6 +29,8 @@ private slots:
 
     void on_btn_desconectar_clicked();
 
+    void on_btn_desligasist_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

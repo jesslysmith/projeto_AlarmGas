@@ -45,5 +45,15 @@ void MainWindow::on_btn_desconectar_clicked()
 
 void MainWindow::dadosRecebidos()
 {
+    auto data = serial.readAll();
+    auto dados = QJsonDocument::fromJson(data).object().toVariantMap();
 
+    if(dados.contains("SENSOR"))
+        ui->lbl_concentracao->setText(dados["SENSOR"].toString());
+}
+
+void MainWindow::on_btn_desligasist_clicked()
+{
+    serial.write("{\"LED\": 0}");
+    serial.write("{\"BUZZER\": 0}");
 }
