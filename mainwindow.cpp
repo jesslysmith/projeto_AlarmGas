@@ -48,11 +48,12 @@ void MainWindow::dadosRecebidos()
     auto data = serial.readAll();
     auto dados = QJsonDocument::fromJson(data).object().toVariantMap();
 
-    qDebug() << data;
+    //qDebug() << data;
     if(dados.contains("LED")){
-        qDebug() << "Entrei";
+        //qDebug() << "Entrei";
         if(dados["LED"] == 1){
             ui->lbl_lcd->setText("PERIGO! NÍVEL ALARMANTE!");
+            ui->label->setEnabled(1);
         }
         else{
             ui->lbl_lcd->setText("Em funcionamento...");
@@ -68,4 +69,5 @@ void MainWindow::on_btn_desligasist_clicked()
 {
     serial.write("{\"T_OFF\": 0}");
     ui->lbl_lcd->setText("Em funcionamento...");
+    ui->label->setEnabled(0);
 }
