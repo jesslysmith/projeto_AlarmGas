@@ -57,6 +57,7 @@ void MainWindow::dadosRecebidos()
         }
         else{
             ui->lbl_lcd->setText("Em funcionamento...");
+            ui->label->setEnabled(0);
         }
     }
 
@@ -67,7 +68,7 @@ void MainWindow::dadosRecebidos()
 
 void MainWindow::on_btn_desligasist_clicked()
 {
-    serial.write("{\"T_OFF\": 0}");
+    serial.write("{\"T_OFF\": 0}\n");
     ui->lbl_lcd->setText("Em funcionamento...");
     ui->label->setEnabled(0);
 }

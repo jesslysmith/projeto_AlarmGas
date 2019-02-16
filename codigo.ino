@@ -16,7 +16,7 @@ const String LED = "\"LED\":";
 const String BUZZER = "\"BUZZER\":";
 const String T_OFF = "\"T_OFF\":";
 const String SENSOR = "\"SENSOR\":";
-const int gatilhosensor = 380; //valor de gatilho
+const int gatilhosensor = 600; //valor de gatilho
 const int rs = D3, en = D0, d4 = D4, d5 = D5, d6 = D6, d7 = D7;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
@@ -37,10 +37,12 @@ String JSON_SENSOR(){
 }
 
 void desligarAlarme(String comando){
-   if(comando.startsWith("{") && comando.endsWith("}")){
+   if(comando.startsWith("{") && comando.endsWith("}\n")){
       if(comando.indexOf(T_OFF + " 0") > 0){
           led.apagar();
           buzzer.desligar();
+          lcd.clear();
+          lcd.print("Em funcionamento!");
       }
    }
 }
@@ -67,6 +69,10 @@ String downloadWEB(){
    http.GET();
    String payload = http.getString();
    http.end();
+   if(payload[0] == '0'){
+       led.apagar();
+       buzzer.desligar();
+   }
    return payload;
 
 }
@@ -105,7 +111,7 @@ void loop() {
   Serial.print(JSON_INDICATORS());
   uploadINDICATORS();
   
-  while(analogSensor > gatilhosensor) // confronto entre valor de gatilho e o valor recebido pelo sensor
+  if(analogSensor > gatilhosensor) // confronto entre valor de gatilho e o valor recebido pelo sensor
   {
     led.acender();
     buzzer.acionar();
@@ -120,7 +126,7 @@ void loop() {
       lcd.print("PERIGO! NIVEL ");
       lcd.setCursor(0, 1);
       lcd.print ("ALARMANTE!");
-      Serial.println(JSON_SENSOR());
+      Serial.print(JSON_SENSOR());
       uploadSENSOR();
       delay(10);
       Serial.print(JSON_INDICATORS());
@@ -135,14 +141,15 @@ void loop() {
         Serial.print(JSON_INDICATORS());
         uploadINDICATORS();
       }
+      desligarAlarme(downloadWEB());
     }
     analogSensor = analogRead(sensor);
-    delay (2000);
+    delay (1000);
   }
    desligarAlarme(downloadWEB());
    uploadSENSOR();
    delay(10);
    uploadINDICATORS();
    
-   delay (1000);
+   delay (3000);
 }

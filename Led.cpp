@@ -16,3 +16,7 @@ void Led::apagar(){
 bool Led::status(){
     return digitalRead(pino);
 }
+
+int Led::getPino(){
+    return pino;
+}

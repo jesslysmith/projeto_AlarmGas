@@ -13,6 +13,7 @@ class Led{
         void acender();
         void apagar();
         bool status();
+        int getPino();
 };
 
 #endif
