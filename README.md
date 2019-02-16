@@ -1,4 +1,4 @@
-# AlarmGás - Detector de Vazamento de Gás Inflamável
+![tela inicial](imagens/qt.png# AlarmGás - Detector de Vazamento de Gás Inflamável
 ### Manual para utilização do AlarmGás (Projeto desenvolvido para a disciplina de Técnicas de Programação, utilizando o Qt Creator e com uma interface Web)
 
 ### O que é o AlarmGás - Detector de Vazamento de Gás Inflamável?
@@ -23,8 +23,21 @@ Após selecionada a porta e a velocidade, basta clicar no botão "Conectar" e vo
 
 ### Estado de Funcionamento
 
+Em Estado de Funcionamento, você consegue obsevar em que situação se encontra o dispositivo. Neste campo será mostrado duas mensagens. A primeira mensagem diz: "Em funcionamento...", ou seja, o dispositivo está funcionando e não a vazamento de gás ou detecção de fumaça no ambiente.
 
+![tela inicial](imagens/qt.png)
 
+A segunda mensagem diz: "PERIGO! XXXXXXXXXXXXXXXX", está mensagem indica que o dispositivo detectou uma alta concentração de gás ou fumaça no ambiente.
+
+![tela inicial](imagens/qt.png)
+
+### Concentração (ppm)
+
+Na tela da Concentração, você pode acompanhar o valor da concentração de gás presente no ambiente. É importante destacar que se a concentração for superior a XX700XX você será alertado.
+
+![tela inicial](imagens/qt.png)
+
+### Desligar Sistema
 
 ### Como utilizar o AlarmGás Web?
 
