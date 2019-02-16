@@ -59,4 +59,4 @@ Em alarme, você pode visualizar a situação do sistema, ou seja, se está Desl
 
 Para mais informações entre em contato conosco:
 - Artur Barôncio (83) 99820-8771
--Jessly Smith (83) 98663-0502
+- Jessly Smith (83) 98663-0502
