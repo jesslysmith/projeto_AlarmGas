@@ -7,11 +7,9 @@ O AlarmGás é um detector de vazamento de gás inflamável. É basicamente um d
 
 ### Como utilizar o AlarmGás?
 
-A interface do AlarmGás é bem simples e de fácil entendimento. Em sua tela inicial temos os seguintes campos: Serial, Estado de Funcionamento, Concentração (ppm) e um botão Desligar Sistema. Na interface Web, temos os seguintes campos: Concentração(ppm) e Alarme (Status de funcionamento e botão Desligar Alarme). A seguir falaremos sobre cada um deles.
+A interface do AlarmGás é bem simples e de fácil entendimento. Em sua tela inicial temos os seguintes campos: Serial, Estado de Funcionamento, Concentração (ppm) e um botão Desligar Sistema. A seguir falaremos sobre cada um deles.
 
 ![tela inicial](imagens/qt.png)
-
-![tela inicial2](imagens/web.PNG)
 
 ### Serial/Conecção
 
@@ -22,3 +20,14 @@ Para utilizar o nosso sistema, é importante primeiramente fazer a conecção co
 Após selecionada a porta e a velocidade, basta clicar no botão "Conectar" e você estara conectado. Caso deseja desconectar, utilize o botão "Desconectar". O "Status" mostra a situação atual da conecção.
 
 ![tela inicial](imagens/qt.png)
+
+### Estado de Funcionamento
+
+
+
+
+### Como utilizar o AlarmGás Web?
+
+Na interface Web, temos os seguintes campos: Concentração(ppm) e Alarme (Status de funcionamento e botão Desligar Alarme). A seguir falaremos sobre cada um deles.
+
+![tela inicial2](imagens/web.PNG)
