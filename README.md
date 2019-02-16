@@ -1,4 +1,4 @@
-# AlarmGás - Detector de Vazamento de Gás Inflamável# AlarmGás - Detector de Vazamento de Gás Inflamável
+# AlarmGás - Detector de Vazamento de Gás Inflamável
 ### Manual para utilização do AlarmGás (Projeto desenvolvido para a disciplina de Técnicas de Programação, utilizando o Qt Creator e com uma interface Web)
 
 ### O que é o AlarmGás - Detector de Vazamento de Gás Inflamável?
@@ -21,5 +21,4 @@ Para utilizar o nosso sistema, é importante primeiramente fazer a conecção co
 
 Após selecionada a porta e a velocidade, basta clicar no botão "Conectar" e você estara conectado. Caso deseja desconectar, utilize o botão "Desconectar". O "Status" mostra a situação atual da conecção.
 
-![tela inicial](imagens/qt.png)
 ![tela inicial](imagens/qt.png)
