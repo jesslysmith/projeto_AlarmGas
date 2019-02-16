@@ -1,4 +1,4 @@
-![tela inicial](imagens/qt.png# AlarmGás - Detector de Vazamento de Gás Inflamável
+# AlarmGás - Detector de Vazamento de Gás Inflamável
 ### Manual para utilização do AlarmGás (Projeto desenvolvido para a disciplina de Técnicas de Programação, utilizando o Qt Creator e com uma interface Web)
 
 ### O que é o AlarmGás - Detector de Vazamento de Gás Inflamável?
