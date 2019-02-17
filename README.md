@@ -25,23 +25,23 @@ Depois de selecionada a porta e a velocidade, basta clicar no botão "Conectar" 
 
 Em Estado de Funcionamento, você consegue observar em que situação se encontra o dispositivo. Neste campo serão mostradas duas mensagens. A primeira mensagem diz: "Em funcionamento...", ou seja, o dispositivo está funcionando e não a vazamento de gás ou detecção de fumaça no ambiente.
 
-![estado de funcionamento](qt-funcionando.png)
+![estado de funcionamento](imagens/qt-funcionando.png)
 
 A segunda mensagem diz: "PERIGO! NÍVEL ALARMANTE" está mensagem indica que o dispositivo detectou uma alta concentração de gás ou fumaça no ambiente.
 
-![estado de funcionamento 2](qt-perigo.png)
+![estado de funcionamento 2](imagens/qt-perigo.png)
 
 ### Concentração (ppm)
 
 Na tela da Concentração, você pode acompanhar o valor da concentração de gás presente no ambiente. É importante destacar que se a concentração for superior a 600 você será alertado.
 
-![concentracao](qt-concentracao.png)
+![concentracao](imagens/qt-concentracao.png)
 
 ### Desligar Sistema
 
 Através do botão "Desligar Sistema" é possível você desligar o alarme. Fazendo com que o sistema seja reiniciado, deixando apto para uma nova detecção de um possível vazamento de gás ou uma alta concentração de fumaça.
 
-![desligar alarme](qt-des_alarme.png)
+![desligar alarme](imagens/qt-des_alarme.png)
 
 ### Como utilizar o AlarmGás Web?
 
@@ -49,7 +49,7 @@ Para acessar a interface o web utilize este endereço: http://alarmgas.herokuapp
 
 Na interface Web, temos os seguintes campos: Concentração(ppm) e Alarme (Status de funcionamento e botão Desligar Alarme). A seguir falaremos sobre cada um deles.
 
-![tela web](web-desligado.png)
+![tela web](imagens/web-desligado.png)
 
 ### Concentração (ppm)
 
