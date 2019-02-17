@@ -3,7 +3,7 @@
 
 ### O que é o AlarmGás - Detector de Vazamento de Gás Inflamável?
 
-O AlarmGás é um detector de vazamento de gás inflamável. É basicamente um dispositivo que detecta uma alta concentração de gás e de fumaça em um ambiente. Temos como objetivo através de nosso dispositivo, verificar a concentração do gás no ambiente e também alertar a você usuário de maneira luminosa, sonora e visualmente a ocorrência de um vazamento de gás.
+O AlarmGás é um detector de vazamento de gás inflamável. É basicamente um dispositivo que detecta uma alta concentração de gás e de fumaça em um ambiente. Temos como objetivo através de nosso dispositivo, verificar a concentração do gás no ambiente e também alertar a você usuário de maneira luminosa, sonora e visual a ocorrência de um vazamento de gás.
 
 ### Como utilizar o AlarmGás?
 
@@ -23,17 +23,17 @@ Depois de selecionada a porta e a velocidade, basta clicar no botão "Conectar" 
 
 ### Estado de Funcionamento
 
-Em Estado de Funcionamento, você consegue observar em que situação se encontra o dispositivo. Neste campo serão mostradas duas mensagens. A primeira mensagem diz: "Em funcionamento...", ou seja, o dispositivo está funcionando e não a vazamento de gás ou detecção de fumaça no ambiente.
+Em Estado de Funcionamento, você consegue observar em que situação se encontra o dispositivo. Neste campo serão mostradas duas mensagens. A primeira mensagem diz: "Em funcionamento...", ou seja, o dispositivo está funcionando e não há vazamento de gás ou detecção de fumaça no ambiente.
 
 ![estado de funcionamento](imagens/qt-funcionando.png)
 
-A segunda mensagem diz: "PERIGO! NÍVEL ALARMANTE" está mensagem indica que o dispositivo detectou uma alta concentração de gás ou fumaça no ambiente.
+A segunda mensagem diz: "PERIGO! NÍVEL ALARMANTE". Esta mensagem indica que o dispositivo detectou uma alta concentração de gás ou fumaça no ambiente.
 
 ![estado de funcionamento 2](imagens/qt-perigo.png)
 
 ### Concentração (ppm)
 
-Na tela da Concentração, você pode acompanhar o valor da concentração de gás presente no ambiente. É importante destacar que se a concentração for superior a 600 você será alertado.
+Na tela da Concentração, você pode acompanhar o valor da concentração de gás presente no ambiente. É importante destacar que se a concentração for superior a 600ppm você será alertado.
 
 ![concentracao](imagens/qt-concentracao.png)
 
