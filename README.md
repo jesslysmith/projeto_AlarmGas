@@ -21,6 +21,8 @@ Depois de selecionada a porta e a velocidade, basta clicar no botão "Conectar" 
 
 ![serial conexão](imagens/qt-conectado2.png)
 
+![serial conexão](imagens/qt-desconectado2.png)
+
 ### Estado de Funcionamento
 
 Em Estado de Funcionamento, você consegue observar em que situação se encontra o dispositivo. Neste campo serão mostradas duas mensagens. A primeira mensagem diz: "Em funcionamento...", ou seja, o dispositivo está funcionando e não há vazamento de gás ou detecção de fumaça no ambiente.
@@ -55,9 +57,13 @@ Na interface Web, temos os seguintes campos: Concentração(ppm) e Alarme (Statu
 
 Da mesma maneira que ocorria na outra interface, na tela da Concentração, você pode acompanhar o valor da concentração de gás presente no ambiente.
 
+![tela web 2](imagens/web-concentracao.png)
+
 ### Alarme
 
 Em alarme, você pode visualizar a situação do sistema, ou seja, se está Desligado ou Ligado. E através do botão "DESLIGAR ALARME" é possível você desligar o alarme reiniciando o sistema, deixando apto para uma nova detecção de um possível vazamento de gás ou uma alta concentração de fumaça.
+
+![tela web 3](imagens/web-status.png)
 
 ### Obrigado por escolher o AlarmGás! 
 
